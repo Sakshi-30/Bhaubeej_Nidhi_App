@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFF"
+    android:id="@+id/linearLayout1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other_schemes"
+                    android:textSize="35sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"
+                    android:textStyle="bold"
+                    android:textColor="#272727"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/EndowmentScheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="15dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="20dp"
+                    app:cardElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAE9D0"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/scheme1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Endowment Scheme"
+                            android:textSize="25sp"
+                            android:textColor="#272727"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/scheme1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2.5dp"
+                            android:text="In this scheme, interest on donation amount will be utilized for educational expenses of needy students. For the year 2021-2022, rate of interest is 5.80% p.a."
+                            android:textColor="#000" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Sankalp365"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAE9D0"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/scheme2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sankalp 365"
+                            android:textSize="25sp"
+                            android:textColor="#272727"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sankalp 365 is the scheme for inviting donations for the expenditure on food for the court committed girl students in the Mahilashram Hostel."
+                            android:layout_below="@id/scheme2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2.5dp"
+                            android:textColor="#000"
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/FinancialGuardianShip"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAE9D0"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/scheme3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Financial Guardianship"
+                            android:textSize="25sp"
+                            android:textColor="#272727"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Annual scholarship for educational purposes(including her food, stay and other requirements) of a needy girl student"
+                            android:layout_below="@id/scheme3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2.5dp"
+                            android:textColor="#000"
+
+                            />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/BuildingFund"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAE9D0"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/scheme4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Building Fund(Infrastructure)"
+                            android:textSize="25sp"
+                            android:textColor="#272727"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You may donate for the construction of a building, for renovation, laboratories, libraries, class-rooms, sports grounds etc."
+                            android:layout_below="@id/scheme4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2.5dp"
+                            android:textColor="#000"
+                            />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/DonationInKind"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardElevation="6dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAE9D0"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/scheme5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Donation in Kind"
+                            android:textSize="25sp"
+                            android:textColor="#272727"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You may donate equipments such as, computers and printers, Xerox machines. It can also be the school kits for the girls in the Samstha"
+                            android:layout_below="@id/scheme5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2.5dp"
+                            android:textColor="#000"
+                            />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Bhaubeej Nidhi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Maharshi Karve Stree Shikshan Samstha</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_schemes">Other Schemes</string>
+    <string name="home_title">Maharshi Karve Stree Shikshan Samstha</string>
+    <string name="home_about">The 125-year-old parent body has been committed to “Empowerment of women through education”. The Institution has a century long history of dedicated work towards making women educated and self-reliant. MKSSS, Pune was established in 1896 by the great visionary and social worker Bharat Ratna Maharshi Dhondo Keshav Karve to provide shelter to destitute women.</string>
+    <string name="bhaubeej_nidhi">Bhaubeej Nidhi</string>
+
+    <string name="bhaubeej_info">Bhaubeej is a pious, healthy and beautiful relationship shared between a brother and a sister in which sister prays for good health and prosperity of a brother and brother helps for the upliftment of a sister and takes care for the whole life. The primary objective of this scheme is, the society can help girl students for their education by donating through this fund. Late Mr. G. M. Chiplunkar, who was a “Life Member” of this Samstha, started a unique scheme, in the year 1919. He started this scheme to collect the funds to provide financial support to needy girls coming from weaker section of the society, to complete their education. The scheme was named as “Bhaubeej Fund Collection”. To run this scheme, he approached the girl students for collecting Bhaubeej Funds. Afterwards many volunteers came forward to participate in this scheme. They approached people who believe in social responsibility for getting financial support to needy girl students.</string>
+    <string name="todo">TODO</string>
+    <string name="contact_us">Contact us</string>
+
+    <string name="description">Donations above Rs. 500/- are exempted under section 80(G) of the Income tax Act 1961</string>
+
+    <string name="endowmentScheme">Option 1:
+Donation of Rs. 10,000/- up to Rs.49, 999/- (we will keep this donation as fixed deposit in our name with our bankers for 5 years and the interest incurred on it will be utilized as scholarship for the educational purposes of a needy girl student taking education in our Samstha’s branch. The donation or the original amount will be deposited into the corpus fund of the institution after expiry of the period.
+\nOption 2:
+Donation of Rs.50, 000/- and more (we will keep this donation as fixed deposit in our name with our bankers for 10 years and the interest incurred on it will be utilized as scholarship for the educational purposes of a needy girl student taking education in our Samstha’s branch. The donation or the original amount will be deposited into the corpus fund of the institution after expiry of period.</string>
+    <string name="sankalp365">“Sankalp 365” is for the students of Mahilashram Hostel. The expenditure on the food of these students collectively is approximately Rs.15000/- per day based on the present day costing.
+The girls in the Mahilashram Hostel are provided with healthy food. Samstha ensures their overall development through Yoga and outdoor games under the supervision of trained teachers. All festivals are celebrated so as to maintain homely atmosphere in the hostel</string>
+    <string name="financialGuardianShip">Girls coming from weaker section of society and coming from rural areas, stay in our hostels and complete the school education. Our Samstha has to look after for their food, stay and other requirements. The annual expenses for food, stay and other requirements of one student are around Rs. 40,000/- p.a. You may sponsor for one such girl. Details of the sponsored girl, such as, her name, address, class in which she is studying, her family background, her performance in annual examination etc. will be communicated to you.
+You can also support financially for more than one student.
+This financial support can be made by Cheque, Demand Draft in favour of “Maharshi Karve Stree Shikshan Samstha”. Online payments can also be made through RTGS.</string>
+    <string name="buildingFund">Nearly 25000 girls take education in different educational units of our Institution. We find that, every year, number of girls interested in securing admission to different educational units, is increasing. Due to this heavy rush, it is always necessary to develop new infrastructure facilities for them. You may donate for the construction of a building, for renovation, for laboratories, libraries, class-rooms, sports grounds etc.
+This financial support can be made by Cheque or DD in favour of Maharshi Karve Stree Shikshan Samstha. Online payments are available. Donations are exempted under section 80G of the Income tax Act.</string>
+    <string name="donationInKind">You may help our Institution by donating some new equipment such as, computers and printers, Xerox machines.
+         It can also be in the form of some sort of stationary material
+    This financial support can be made by Cheque or DD in favour of Maharshi Karve Stree Shikshan Samstha. Online payments are available. Donations are exempted under section 80G of the Income tax Act.</string>
+    <string name="other_schemes">Other Schemes</string>
+    <string name="know_more_content">The scheme received a good response from the public for last 100 years. The girls who cannot bear the expenses required for their stay and education, our Samstha always help them through the financial support from well wishers and philanthropists. Girls staying in hostels come under different sections of society and their expenses can be further classified as:- \n1. Their stay in hostels \n2. lunch and dinner \n3. breakfast and afternoon tiffin and \n4. Other expenses (including medical expenses). A large number of girls have received support from this scheme and they could complete their education successfully. It is our sincere appeal to everyone to generously contribute for the Bhaubeej Fund and support the needy students financially to complete their education. This contribution can be made by Cheque, DD in favour of Maharshi Karve Stree Shikshan Samstha, online payment can also be done and the contributor, who contributes more than Rs.500.00 may avail the income tax exemption U/S 80 G of the Income Tax Act for the amount donated.</string>
+    <string name="some_poetic_glimpses">Some poetic glimpses</string>
+</resources>
